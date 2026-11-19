@@ -8,7 +8,7 @@ PC 에 둔 만화책, 소설을 같은 와이파이의 폰, 태블릿에서 받�
 만화, 소설 뷰어 [TapTap](https://nion.kr/apps/taptap) 의 '내 PC'와 함께 씁니다.
 
 - 케이블도 클라우드도 필요 없습니다. 같은 와이파이면 됩니다.
-- 광고, 계정, 서버가 없습니다. 인터넷으로 나가는 통신이 없고, 책은 PC 에서 기기로만 갑니다.
+- 광고, 계정, 서버가 없습니다. 인터넷으로는 새 버전 확인만 하고, 책은 PC 에서 기기로만 갑니다.
 - 연결은 암호화되고, 인증번호로 페어링 된 기기만 받을 수 있습니다.
 
 ---
@@ -127,7 +127,7 @@ PC 에 둔 만화책, 소설을 같은 와이파이의 폰, 태블릿에서 받�
 
 ## 개인정보 / 보안
 
-- 인터넷으로 나가는 통신이 없습니다. 업데이트 확인, 통계, 광고, 계정 모두 없습니다.
+- 인터넷 통신은 새 버전 확인 하나뿐입니다. 실행할 때와 6시간마다 GitHub 에 최신 버전 번호만 묻고, 책, 기기, 설정 같은 정보는 보내지 않습니다. 통계, 광고, 계정은 없습니다.
 - 같은 와이파이의 기기가 묻는 것에만 답합니다(TCP 47800). 책 폴더를 **읽기만** 하고, 고치거나 지우지 않습니다.
 - 연결은 TLS 로 암호화됩니다. 기기는 처음 페어링할 때 이 PC 의 인증서를 기억하고, 그 뒤로는 같은 PC 에만 붙습니다.
 - 인증번호로 페어링 된 기기만 받을 수 있습니다. 번호를 여러 번 틀리면 잠깁니다.
@@ -151,7 +151,7 @@ TapTapTool lets your phone or tablet download comics and books from your PC over
 It works with **My PC** in [TapTap](https://nion.kr/apps/taptap), a comic and e-book reader.
 
 - No cable, no cloud - just the same Wi-Fi.
-- No ads, no account, no server. Nothing goes out to the internet; books go from your PC to your device only.
+- No ads, no account, no server. The only internet access is a check for new versions; books go from your PC to your device only.
 - The connection is encrypted, and only devices paired with the code can download.
 
 ### Requirements
@@ -265,7 +265,7 @@ If you delete the settings folder and reinstall, your device will say "The PC se
 
 ### Privacy and security
 
-- Nothing goes out to the internet - no update checks, analytics, ads or accounts.
+- The only internet access is a new version check: at launch and every 6 hours it asks GitHub for the latest version number, and sends nothing about your books, devices or settings. No analytics, ads or accounts.
 - It only answers devices on the same Wi-Fi (TCP 47800). It **only reads** your book folders and never changes or deletes them.
 - The connection is TLS-encrypted. Your device remembers this PC's certificate when pairing and connects only to it afterwards.
 - Only devices paired with the code can download. Too many wrong codes lock pairing for a while.
@@ -289,7 +289,7 @@ TapTapTool を使うと、同じ Wi-Fi に接続したスマートフォンや�
 マンガと電子書籍のビューア [TapTap](https://nion.kr/apps/taptap) の **マイPC** で使います。
 
 - ケーブルもクラウドも不要です。同じ Wi-Fi だけで使えます。
-- 広告、アカウント、サーバーはありません。インターネットには何も送信せず、本は PC から端末へ直接届きます。
+- 広告、アカウント、サーバーはありません。インターネットへの通信は新しいバージョンの確認だけで、本は PC から端末へ直接届きます。
 - 通信は暗号化され、ペアリングコードでペアリングした端末だけがダウンロードできます。
 
 ### 動作環境
@@ -403,7 +403,7 @@ TapTapTool を使うと、同じ Wi-Fi に接続したスマートフォンや�
 
 ### プライバシーとセキュリティ
 
-- インターネットには何も送信しません。アップデートの確認、分析、広告、アカウントはありません。
+- インターネットへの通信は新しいバージョンの確認だけです。起動時と 6 時間ごとに GitHub に最新のバージョン番号を問い合わせるだけで、本、端末、設定などの情報は送信しません。分析、広告、アカウントはありません。
 - 応答するのは同じ Wi-Fi 上の端末だけです (TCP 47800)。本のフォルダは **読み取るだけ** で、変更や削除はしません。
 - 通信は TLS で暗号化されます。端末はペアリング時にこの PC の証明書を記憶し、以後はその PC にだけ接続します。
 - ペアリングコードでペアリングした端末だけがダウンロードできます。コードを何度も間違えると、しばらくペアリングがロックされます。
@@ -427,7 +427,7 @@ TapTapTool 讓你的手機或平板透過同一個 Wi-Fi，從電腦下載漫畫
 它搭配漫畫與電子書閱讀器 [TapTap](https://nion.kr/apps/taptap) 中的 **我的電腦** 使用。
 
 - 不用傳輸線，也不用雲端，只要同一個 Wi-Fi。
-- 沒有廣告、不用帳號、沒有伺服器。不會連上網際網路，書只會從你的電腦傳到你的裝置。
+- 沒有廣告、不用帳號、沒有伺服器。只會連上網際網路檢查新版本，書只會從你的電腦傳到你的裝置。
 - 連線經過加密，只有用配對碼配對的裝置才能下載。
 
 ### 系統需求
@@ -541,7 +541,7 @@ TapTapTool 讓你的手機或平板透過同一個 Wi-Fi，從電腦下載漫畫
 
 ### 隱私與安全性
 
-- 不會連上網際網路 - 沒有更新檢查、分析、廣告或帳號。
+- 唯一的網際網路連線是檢查新版本：啟動時和每 6 小時向 GitHub 查詢最新版本號碼，不會傳送書籍、裝置或設定等任何資訊。沒有分析、廣告或帳號。
 - 只回應同一個 Wi-Fi 上的裝置（TCP 47800）。它 **只會讀取** 你的書籍資料夾，絕不會變更或刪除。
 - 連線使用 TLS 加密。裝置在配對時會記住這台電腦的憑證，之後只會連線到這台電腦。
 - 只有用配對碼配對的裝置才能下載。配對碼輸入錯誤太多次時，會暫時鎖定配對。
@@ -565,7 +565,7 @@ TapTapTool te permite descargar cómics y libros de tu PC a tu teléfono o table
 Funciona con **Mi PC** de [TapTap](https://nion.kr/apps/taptap), un lector de cómics y libros electrónicos.
 
 - Sin cables ni nube. Solo la misma red Wi-Fi.
-- Sin anuncios, sin cuenta, sin servidor. Nada sale a internet; los libros van solo de tu PC a tu dispositivo.
+- Sin anuncios, sin cuenta, sin servidor. Solo se conecta a internet para buscar nuevas versiones; los libros van solo de tu PC a tu dispositivo.
 - La conexión está cifrada y solo pueden descargar los dispositivos vinculados con el código.
 
 ### Requisitos
@@ -679,7 +679,7 @@ Si eliminas la carpeta de ajustes y lo reinstalas, tu dispositivo dirá "Parece 
 
 ### Privacidad y seguridad
 
-- Nada sale a internet: ni búsqueda de actualizaciones, ni estadísticas, ni anuncios, ni cuentas.
+- La única conexión a internet es la búsqueda de nuevas versiones: al iniciar y cada 6 horas consulta a GitHub el número de la última versión, sin enviar nada sobre tus libros, dispositivos o ajustes. Sin estadísticas, anuncios ni cuentas.
 - Solo responde a dispositivos de la misma red Wi-Fi (TCP 47800). **Solo lee** tus carpetas de libros; nunca las cambia ni las elimina.
 - La conexión está cifrada con TLS. Tu dispositivo recuerda el certificado de esta PC al vincularse y después solo se conecta a ella.
 - Solo pueden descargar los dispositivos vinculados con el código. Demasiados códigos incorrectos bloquean la vinculación durante un rato.
@@ -703,7 +703,7 @@ O TapTapTool permite que seu celular ou tablet baixe quadrinhos e livros do seu 
 Ele funciona com o **Meu PC** do [TapTap](https://nion.kr/apps/taptap), um leitor de quadrinhos e e-books.
 
 - Sem cabo e sem nuvem, só o mesmo Wi-Fi.
-- Sem anúncios, sem conta, sem servidor. Nada sai para a internet; os livros vão só do seu PC para o seu dispositivo.
+- Sem anúncios, sem conta, sem servidor. A única conexão com a internet é a verificação de novas versões; os livros vão só do seu PC para o seu dispositivo.
 - A conexão é criptografada, e só dispositivos pareados com o código podem baixar.
 
 ### Requisitos
@@ -817,7 +817,7 @@ Se você excluir a pasta de configurações e reinstalar, o dispositivo vai most
 
 ### Privacidade e segurança
 
-- Nada sai para a internet: sem verificação de atualizações, estatísticas, anúncios ou contas.
+- A única conexão com a internet é a verificação de novas versões: ao abrir e a cada 6 horas, ele consulta o GitHub pelo número da versão mais recente, sem enviar nada sobre seus livros, dispositivos ou configurações. Sem estatísticas, anúncios ou contas.
 - Ele só responde a dispositivos no mesmo Wi-Fi (TCP 47800). Ele **só lê** as pastas de livros e nunca as altera ou exclui.
 - A conexão é criptografada com TLS. O dispositivo memoriza o certificado deste PC no pareamento e depois só se conecta a ele.
 - Só dispositivos pareados com o código podem baixar. Muitos códigos errados bloqueiam o pareamento por um tempo.
@@ -841,7 +841,7 @@ Mit TapTapTool lädt dein Handy oder Tablet Comics und Bücher über das gleiche
 Es funktioniert mit **Mein PC** in [TapTap](https://nion.kr/apps/taptap), einem Reader für Comics und E-Books.
 
 - Kein Kabel, keine Cloud - nur das gleiche WLAN.
-- Keine Werbung, kein Konto, kein Server. Nichts geht ins Internet, Bücher gehen nur vom PC auf dein Gerät.
+- Keine Werbung, kein Konto, kein Server. Ins Internet geht nur die Suche nach neuen Versionen, Bücher gehen nur vom PC auf dein Gerät.
 - Die Verbindung ist verschlüsselt, und nur mit dem Code gekoppelte Geräte können herunterladen.
 
 ### Voraussetzungen
@@ -955,7 +955,7 @@ Wenn du den Einstellungsordner löschst und neu installierst, meldet dein Gerät
 
 ### Datenschutz und Sicherheit
 
-- Nichts geht ins Internet - keine Update-Prüfung, keine Analyse, keine Werbung, kein Konto.
+- Die einzige Internetverbindung ist die Suche nach neuen Versionen: Beim Start und alle 6 Stunden wird bei GitHub die neueste Versionsnummer abgefragt, ohne etwas über deine Bücher, Geräte oder Einstellungen zu senden. Keine Analyse, keine Werbung, kein Konto.
 - Es antwortet nur Geräten im selben WLAN (TCP 47800). Deine Buchordner werden **nur gelesen**, nie geändert oder gelöscht.
 - Die Verbindung ist per TLS verschlüsselt. Dein Gerät merkt sich beim Koppeln das Zertifikat dieses PCs und verbindet sich danach nur damit.
 - Nur mit dem Code gekoppelte Geräte können herunterladen. Nach zu vielen falschen Codes wird das Koppeln eine Weile gesperrt.
@@ -979,7 +979,7 @@ TapTapTool permet à votre téléphone ou tablette de télécharger des BD et de
 Il fonctionne avec **Mon PC** dans [TapTap](https://nion.kr/apps/taptap), un lecteur de BD et de livres numériques.
 
 - Pas de câble, pas de cloud. Il suffit du même Wi-Fi.
-- Pas de publicité, pas de compte, pas de serveur. Rien ne sort sur Internet, les livres vont uniquement de votre PC à votre appareil.
+- Pas de publicité, pas de compte, pas de serveur. La seule connexion à Internet sert à rechercher les nouvelles versions, les livres vont uniquement de votre PC à votre appareil.
 - La connexion est chiffrée, et seuls les appareils associés avec le code peuvent télécharger.
 
 ### Configuration requise
@@ -1093,7 +1093,7 @@ Si vous supprimez le dossier des paramètres puis réinstallez, votre appareil a
 
 ### Confidentialité et sécurité
 
-- Rien ne sort sur Internet : pas de recherche de mises à jour, de statistiques, de publicité ni de compte.
+- La seule connexion à Internet est la recherche de nouvelles versions : au démarrage et toutes les 6 heures, l'app demande à GitHub le dernier numéro de version, sans rien envoyer sur vos livres, appareils ou réglages. Pas de statistiques, de publicité ni de compte.
 - Il ne répond qu'aux appareils du même Wi-Fi (TCP 47800). Il **lit seulement** vos dossiers de livres et ne les modifie ni ne les supprime jamais.
 - La connexion est chiffrée en TLS. Lors de l'association, votre appareil mémorise le certificat de ce PC et ne se connecte ensuite qu'à lui.
 - Seuls les appareils associés avec le code peuvent télécharger. Trop de codes incorrects bloquent l'association pendant un moment.
